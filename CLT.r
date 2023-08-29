@@ -5,6 +5,7 @@ for(i in 1:1000){
 samp<-sample(pop,n)
 xbar<-c(xbar,mean(samp))
 }
+#comments abcd
 m<-round(mean(xbar),2)
 s<-round(sd(xbar),2)
 main=paste("n=",n,", mean=",m,", sd=",s,sep="")
